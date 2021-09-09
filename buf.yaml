@@ -1,0 +1,11 @@
+---
+version: v1
+name: buf.build/cerbos/clients
+deps:
+  - "buf.build/cerbos/cerbos-api"
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
